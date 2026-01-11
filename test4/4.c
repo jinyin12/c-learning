@@ -17,6 +17,5 @@ int main() {
 	int result = fibonacci(n);
 	printf("斐波那契数列的第 %d 项是：%d\n", n, result);
 	return 0;
-
 }
 
