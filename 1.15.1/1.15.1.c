@@ -9,7 +9,7 @@ int main()
 	int arr[100] = { 0 };
 	int result[100] = { 0 };
 	int k = 0;
-	for (int count1=0; start * start <= n; start++)
+	for (int count1=0; (long long)start * start <= n; start++)
 	{
 		for (int j=n,start1=start;; count1++)
 		{
