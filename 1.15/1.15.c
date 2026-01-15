@@ -23,7 +23,7 @@ int main()
 	int count = 0;
 	int find(int n, int start,int arr[],int k);
 	int k = 0;
-	for (; start * start < n; start++)
+	for (; (long long)start * start < n; start++)
 	{
 	
 		int j = find(n, start, arr, k);
